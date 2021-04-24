@@ -21,11 +21,7 @@
 </body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script>
-    $( "input[type=checkbox]" ).on("checked", function (){
-        if($("input:checked").length >= 1){
-            $("input[type=checkbox]").
-        }
-    })
+
 </script>
 </html>
 
