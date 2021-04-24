@@ -4,10 +4,14 @@ $jsonString = file_get_contents('data.json');
 $data = json_decode($jsonString, true) ?? [];
 $_SESSION['data'] = $data;
 $run = false;
+if(isset($_POST['next'])){
+    $_SESSION['current']++;
+}
 function questChoice($index){
     $_SESSION['current']=$index;
     return ("
        <div class='Question' name = 'quest-$index'>{$_SESSION['data'][$index]['quest']}</div>
+        <button class='next' name='next'></button>
        <div class='grid-containerQuest'>
        <p id='A' name='btn-c-A' class = 'btn-c'>{$_SESSION["data"][$index]['inputA']}</p>
        <p id='B' name='btn-c-B' class = 'btn-c'>{$_SESSION["data"][$index]['inputB']}</p>

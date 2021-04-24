@@ -130,3 +130,12 @@ h1{
     margin: auto;
     justify-content: center;
 }
+.next {
+    width: 0;
+    height: 0;
+    border-top: 25px solid black;
+    border-left: 50px solid #2f6dae;
+    border-bottom: 25px solid black;
+    margin-left: auto;
+    margin-top: 130px;
+}
