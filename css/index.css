@@ -71,7 +71,7 @@ body{
     font-size: 25px;
     color: antiquewhite;
     font-weight: 500;
-    word-break: break-all;
+    word-break: break-word;
     font-family: Quicksand,Helvetica,Arial;
 }
 .Question{
@@ -83,7 +83,7 @@ body{
     border-radius: 5px;
     font-size:28px;
     width: 800px;
-    word-break: break-all;
+    word-break: break-word;
 }
 p[name="btn-c-A"] {
     background: #2f6dae;
@@ -136,6 +136,6 @@ h1{
     border-top: 25px solid black;
     border-left: 50px solid #2f6dae;
     border-bottom: 25px solid black;
-    margin-left: auto;
+    margin-left: 95%;
     margin-top: 130px;
 }
