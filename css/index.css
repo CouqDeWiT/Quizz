@@ -1,0 +1,132 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.item{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+textarea{
+    height: 100px;
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+
+}
+
+body{
+    background-color: black;
+    font-family: "monaco", monospace;
+    color: antiquewhite;
+
+}
+.questInput{
+    display: flex;
+    justify-content: center;
+}
+.Quest{
+    display:block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: black;
+    background-color: aliceblue;
+    margin: 5px;
+
+}
+.grid-containerQ {
+    display: flex;
+    align-items: stretch;
+
+}
+.grid-containerQuest {
+    display: flex;
+    grid-auto-flow: column;
+    position: absolute;
+    bottom: 25px;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    padding: 10px;
+}
+.btn-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 260px;
+    width: 370px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+    color: antiquewhite;
+    font-weight: 500;
+    word-break: break-all;
+    font-family: Quicksand,Helvetica,Arial;
+}
+.Question{
+    position: relative;
+    top: 30px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    font-size:28px;
+    width: 800px;
+    word-break: break-all;
+}
+p[name="btn-c-A"] {
+    background: #2f6dae;
+}
+p[name="btn-c-B"] {
+    background: #2b9ca6;
+}
+p[name="btn-c-C"] {
+    background: #eca830;
+}
+p[name="btn-c-D"] {
+    background: #d4546a;
+}
+input{
+    width: 20px;
+    height: 20px;
+}
+button{
+    display: block;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+.nhap{
+    color: black;
+    margin-left: auto;
+    border: none;
+    background: #c6c76d;
+    border-radius: 3px;
+    width: 70px;
+    height: 36px;
+}
+.submit{
+    margin: auto;
+}
+.heading{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr repeat(1, auto) 1fr;
+    justify-content: center;
+}
+h1{
+    grid-column-start: 2;
+    margin: auto;
+    justify-content: center;
+}
