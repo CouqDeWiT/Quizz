@@ -78,6 +78,8 @@ else echo "<script type='text/javascript'>alert('wrong');</script>";
             echo $key;
         }
         }?>";
+
+    $(".grid-containerQuest").change;
     $('#A').click(function (){check('A')});
     $('#B').click(function (){check('B')});
     $('#C').click(function (){check('C')});
