@@ -36,37 +36,46 @@ body{
     justify-content: center;
 }
 .Quest{
-    display:block;
+    display: block;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     color: black;
     background-color: aliceblue;
     margin: 5px;
-
+    border-width: 5px ;
+    border-color: black;
 }
 .grid-containerQ {
     display: flex;
     align-items: stretch;
 
 }
-.grid-containerQuest {
+.btn-i {
     display: flex;
-    grid-auto-flow: column;
+    align-items: stretch;
+
+}
+.grid-containerQuest {
+    position: fixed;
+    bottom: 15px;
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
     position: absolute;
-    bottom: 25px;
-    justify-content: space-evenly;
+    margin-top: 50px;
     column-gap: 20px;
     padding: 10px;
 }
 .btn-c{
-    display: flex;
+    flex:1;
     justify-content: center;
     align-items: center;
     border: none;
-    height: 260px;
-    width: 370px;
+    height: auto;
+    width: 100%;
     text-align: center;
+    display: flex;
     border-radius: 5px;
     font-size: 25px;
     color: antiquewhite;
@@ -75,14 +84,12 @@ body{
     font-family: Quicksand,Helvetica,Arial;
 }
 .Question{
-    position: relative;
-    top: 30px;
     justify-content: center;
-    margin: auto;
+    margin-top: 30px;
     text-align: center;
     border-radius: 5px;
     font-size:28px;
-    width: 800px;
+    width: 100%;
     word-break: break-word;
 }
 p[name="btn-c-A"] {
@@ -136,6 +143,20 @@ h1{
     border-top: 25px solid black;
     border-left: 50px solid #2f6dae;
     border-bottom: 25px solid black;
-    margin-left: 95%;
-    margin-top: 130px;
+
+}
+.btn {
+    right: 10px;
+    justify-content: right;
+    flex: 1;
+    display: flex;
+}
+.questChoice {
+
+    flex-direction: column;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+.formQuest {
+    height: 100%;
 }
